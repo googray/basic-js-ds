@@ -25,13 +25,13 @@ class Queue {
     // remove line with error and write your code here
     let current = this.head;
     let previous = null;
-    while (current) {
-      let next = current.next;
-      next = current;
-      previous = current;
-      next = next.next;
-      console.log(next);
-    }
+    // while (current) {
+    //   let next = current.next;
+    //   next = current;
+    //   previous = current;
+    //   next = next.next;
+    //   // console.log(next);
+    // }
   }
 
   enqueue(value) {
